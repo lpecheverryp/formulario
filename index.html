@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Página</title>
+</head>
+<body>
+<script>
+function pantalla(mi)
+{   
+	var lol = document.getElementById(mi).value;
+	
+        alert(".");
+}
+
+
+</script>
+
+<style>
+	.cuadro{
+
+		background-color: #FF0000;
+		border:2px solid blue;
+		height:15px;
+	 
+
+	}
+
+
+
+	.division{
+
+	height:50px;
+
+	}
+
+	
+</style>
+<form>
+	<div class="division">
+	<label><span>ID:</span></label><input type="text" id="id" onclick="pantalla(this.id)" class="cuadro"><br>
+	<br><br><br>
+	<div class="division">
+	<label>Nombre:</label><input type="text" id="nombre" onclick="pantalla(this.id)" class="cuadro"><br>
+	<br><br><br>
+	<div class="division">
+	<label>Edad:</label><input type="text" id="edad" onclick="pantalla(this.id)" class="cuadro"><br>
+	<br><br><br>
+	<div class="division">
+	<input type="submit" value="Aceptar">
+<br><br>
+
+
+</form>
+
+
+
+
+</body>
+</html>
